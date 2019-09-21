@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 296744892531045822}
+  - component: {fileID: 4872589450496625042}
   - component: {fileID: 296744892531045823}
   - component: {fileID: 296744892531045809}
   - component: {fileID: 296744892531045808}
@@ -16,12 +16,12 @@ GameObject:
   - component: {fileID: 296744892531045821}
   m_Layer: 0
   m_Name: Pick Up
-  m_TagString: 'Pick Up '
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &296744892531045822
+--- !u!4 &4872589450496625042
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296744892531045811}
   m_LocalRotation: {x: 0.46193978, y: 0.19134173, z: 0.19134173, w: 0.84462327}
-  m_LocalPosition: {x: -0.11, y: 0.6219639, z: 6.11}
-  m_LocalScale: {x: 1, y: 0.50000006, z: 0.50000024}
+  m_LocalPosition: {x: -0.11, y: 0.5, z: 6.11}
+  m_LocalScale: {x: 0.5, y: 0.50000006, z: 0.50000024}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

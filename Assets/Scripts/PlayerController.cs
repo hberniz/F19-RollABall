@@ -1,9 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
-
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private int count;
 
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
@@ -23,7 +21,7 @@ public class PlayerController : MonoBehaviour
         winText.text = "";
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
